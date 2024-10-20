@@ -8,7 +8,7 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/laydown/refs/heads/main/laydown",
         "https://raw.githubusercontent.com/YoYoJjY/invisible/refs/heads/main/invisiblebutton",
         "https://raw.githubusercontent.com/YoYoJjY/infiniteyield/refs/heads/main/infiniteyield",
-        "https://raw.githubusercontent.com/zzzcoder2/sigma2/main/updatedbyz",
+        "https://raw.githubusercontent.com/YoYoJjY/systembroken/refs/heads/main/systembroken",
         "https://raw.githubusercontent.com/YoYoJjY/headpoop/refs/heads/main/headpoop",
         "https://raw.githubusercontent.com/YoYoJjY/antibang-button/refs/heads/main/antibangbutton",
         "https://raw.githubusercontent.com/YoYoJjY/voidwalk/refs/heads/main/voidwalk",

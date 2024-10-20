@@ -1,0 +1,66 @@
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+-- Create the Screen GUI
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = playerGui
+
+-- Create the background frame
+local backgroundFrame = Instance.new("Frame")
+backgroundFrame.Size = UDim2.new(1, 0, 1, 0)
+backgroundFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+backgroundFrame.BackgroundTransparency = 0.5 -- Semi-transparent
+backgroundFrame.Parent = screenGui
+
+-- Create the image
+local imageLabel = Instance.new("ImageLabel")
+imageLabel.Size = UDim2.new(1, 0, 1, 0)
+imageLabel.Position = UDim2.new(0, 0, 0, 0)
+imageLabel.Image = "rbxassetid://113885302479259" -- Replace with your image ID
+imageLabel.BackgroundTransparency = 1
+imageLabel.Parent = backgroundFrame
+
+-- Create the text label (black outline)
+local outlineLabel = Instance.new("TextLabel")
+outlineLabel.Size = UDim2.new(1, 0, 0.2, 0)
+outlineLabel.Position = UDim2.new(0, 0, 0.4, 0) -- Centered vertically
+outlineLabel.Text = "Diddy Hub By John Pork"
+outlineLabel.Font = Enum.Font.SourceSansBold
+outlineLabel.TextSize = 51
+outlineLabel.TextColor3 = Color3.new(0, 0, 0) -- Black outline
+outlineLabel.BackgroundTransparency = 1
+outlineLabel.Parent = backgroundFrame
+
+-- Create the main text label (white text)
+local textLabel = Instance.new("TextLabel")
+textLabel.Size = UDim2.new(1, 0, 0.2, 0)
+textLabel.Position = UDim2.new(0, 0, 0.4, 0) -- Centered vertically
+textLabel.Text = "Diddy Hub By John Pork"
+textLabel.Font = Enum.Font.SourceSansBold
+textLabel.TextSize = 48
+textLabel.TextColor3 = Color3.new(1, 1, 1) -- White text
+textLabel.BackgroundTransparency = 1
+textLabel.Parent = backgroundFrame
+
+-- Function to fade out the GUI
+local function fadeOut()
+    for i = 1, 20 do
+        backgroundFrame.BackgroundTransparency = backgroundFrame.BackgroundTransparency + 0.05
+        textLabel.TextTransparency = textLabel.TextTransparency + 0.05
+        outlineLabel.TextTransparency = outlineLabel.TextTransparency + 0.05 -- Fade out the outline
+        imageLabel.ImageTransparency = imageLabel.ImageTransparency + 0.05 -- Fade out the image
+        wait(0.1)
+    end
+    screenGui:Destroy() -- Remove the GUI after fading out
+end
+
+-- Start the fade out after 4 seconds
+wait(4)
+fadeOut()
+
+-- Load the scripts after the intro
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YoYoJjY/laydown/refs/heads/main/laydown"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YoYoJjY/invisible/refs/heads/main/invisiblebutton"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YoYoJjY/headpoop/refs/heads/main/headpoop"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YoYoJjY/reverse/refs/heads/main/reverse"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YoYoJjY/jumpppp/refs/heads/main/jumpppp"))()

@@ -7,6 +7,9 @@ local function loadScripts()
     local scripts = {
         "https://raw.githubusercontent.com/YoYoJjY/laydown/refs/heads/main/laydown",
         "https://raw.githubusercontent.com/YoYoJjY/invisible/refs/heads/main/invisiblebutton",
+        "https://raw.githubusercontent.com/YoYoJjY/platform/refs/heads/main/platform",
+        "https://raw.githubusercontent.com/YoYoJjY/resethipheight/refs/heads/main/resethipheight",
+        "https://raw.githubusercontent.com/YoYoJjY/vcbypass/refs/heads/main/vcbypass",
         "https://raw.githubusercontent.com/YoYoJjY/dacrib/refs/heads/main/dacrib",
         "https://raw.githubusercontent.com/YoYoJjY/underground/refs/heads/main/underground",
         "https://raw.githubusercontent.com/YoYoJjY/infiniteyield/refs/heads/main/infiniteyield",

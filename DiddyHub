@@ -11,6 +11,8 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/resethipheight/refs/heads/main/resethipheight",
         "https://raw.githubusercontent.com/YoYoJjY/vcbypass/refs/heads/main/vcbypass",
         "https://raw.githubusercontent.com/YoYoJjY/platplat/refs/heads/main/platplat",
+        "https://raw.githubusercontent.com/YoYoJjY/climbinbut/refs/heads/main/climbingbutton",
+        "https://raw.githubusercontent.com/YoYoJjY/togglehip/refs/heads/main/togglehip",
         "https://raw.githubusercontent.com/YoYoJjY/fast-slow/refs/heads/main/fastslow",
         "https://raw.githubusercontent.com/YoYoJjY/dacrib/refs/heads/main/dacrib",
         "https://raw.githubusercontent.com/YoYoJjY/underground/refs/heads/main/underground",

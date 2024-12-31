@@ -18,7 +18,6 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/invisible-rotate/refs/heads/main/invisiblerotate",
         "https://raw.githubusercontent.com/YoYoJjY/fast-slow/refs/heads/main/fastslow",
         "https://raw.githubusercontent.com/YoYoJjY/dacrib/refs/heads/main/dacrib",
-        "https://raw.githubusercontent.com/YoYoJjY/underground/refs/heads/main/underground",
         "https://raw.githubusercontent.com/YoYoJjY/infiniteyield/refs/heads/main/infiniteyield",
         "https://raw.githubusercontent.com/YoYoJjY/systembroken/refs/heads/main/systembroken",
         "https://raw.githubusercontent.com/YoYoJjY/headpoop/refs/heads/main/headpoop",

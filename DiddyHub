@@ -25,6 +25,7 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/voidwalk/refs/heads/main/voidwalk",
         "https://raw.githubusercontent.com/YoYoJjY/reverse/refs/heads/main/reverse",
         "https://raw.githubusercontent.com/YoYoJjY/jumpppp/refs/heads/main/jumpppp",
+        "https://raw.githubusercontent.com/YoYoJjY/shiftlock/refs/heads/main/shiftlock",
         "https://raw.githubusercontent.com/YoYoJjY/coxanims/refs/heads/main/coxanims"
     }
     

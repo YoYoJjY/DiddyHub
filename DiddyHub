@@ -14,7 +14,6 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/climbinbut/refs/heads/main/climbingbutton",
         "https://raw.githubusercontent.com/YoYoJjY/walkspeed40/refs/heads/main/walkspeed%2040",
         "https://raw.githubusercontent.com/YoYoJjY/togglehip/refs/heads/main/togglehip",
-        "https://raw.githubusercontent.com/YoYoJjY/coxanims/refs/heads/main/coxanims",
         "https://raw.githubusercontent.com/YoYoJjY/fast-slow/refs/heads/main/fastslow",
         "https://raw.githubusercontent.com/YoYoJjY/dacrib/refs/heads/main/dacrib",
         "https://raw.githubusercontent.com/YoYoJjY/underground/refs/heads/main/underground",
@@ -24,7 +23,8 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/antibang-button/refs/heads/main/antibangbutton",
         "https://raw.githubusercontent.com/YoYoJjY/voidwalk/refs/heads/main/voidwalk",
         "https://raw.githubusercontent.com/YoYoJjY/reverse/refs/heads/main/reverse",
-        "https://raw.githubusercontent.com/YoYoJjY/jumpppp/refs/heads/main/jumpppp"
+        "https://raw.githubusercontent.com/YoYoJjY/jumpppp/refs/heads/main/jumpppp",
+        "https://raw.githubusercontent.com/YoYoJjY/coxanims/refs/heads/main/coxanims"
     }
     
     for _, url in ipairs(scripts) do

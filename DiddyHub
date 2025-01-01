@@ -22,6 +22,7 @@ local function loadScripts()
         "https://raw.githubusercontent.com/YoYoJjY/systembroken/refs/heads/main/systembroken",
         "https://raw.githubusercontent.com/YoYoJjY/headpoop/refs/heads/main/headpoop",
         "https://raw.githubusercontent.com/YoYoJjY/antibang-button/refs/heads/main/antibangbutton",
+        "https://raw.githubusercontent.com/YoYoJjY/freezehip/refs/heads/main/freezehip",
         "https://raw.githubusercontent.com/YoYoJjY/voidwalk/refs/heads/main/voidwalk",
         "https://raw.githubusercontent.com/YoYoJjY/reverse/refs/heads/main/reverse",
         "https://raw.githubusercontent.com/YoYoJjY/jumpppp/refs/heads/main/jumpppp",
